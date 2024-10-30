@@ -29,10 +29,17 @@ for i in range(1,A+1): #วนลูปตามจำนวนวิชา
         break
       else:
         print("คะแนนต้องอยู่ระหว่าง 0-100")
-    except ValueError:
+    except ValueError: #except ตรวจสอบโค้ดที่ผิดพลาด
       print("กรุณากรอกคะแนนเป็นตัวเลข") 
 
 D = tolgrade(P) 
 G = grade(D)
 print(f"คะแนนเฉลี่ย = {D:.2f}") #คะแนนเฉลี่ย
 print(f"เกรด = {G}") #เกรด
+
+
+
+
+
+
+    
